@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:0.1" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <rect width="1000" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Diabetic Retinopathy: Global Impact
+  </text>
+  
+  <!-- Stat Card 1 -->
+  <g transform="translate(50, 80)">
+    <rect width="200" height="260" rx="12" fill="#667eea" filter="url(#cardShadow)"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+      463M
+    </text>
+    <text x="100" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      Adults with
+    </text>
+    <text x="100" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      Diabetes Globally
+    </text>
+    
+    <!-- Icon -->
+    <circle cx="100" cy="150" r="40" fill="white" opacity="0.2"/>
+    <text x="100" y="165" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">🌍</text>
+    
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      International Diabetes
+    </text>
+    <text x="100" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      Federation (2021)
+    </text>
+  </g>
+  
+  <!-- Stat Card 2 -->
+  <g transform="translate(280, 80)">
+    <rect width="200" height="260" rx="12" fill="#48bb78" filter="url(#cardShadow)"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+      35%
+    </text>
+    <text x="100" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      of Diabetics
+    </text>
+    <text x="100" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      Develop DR
+    </text>
+    
+    <!-- Icon -->
+    <circle cx="100" cy="150" r="40" fill="white" opacity="0.2"/>
+    <text x="100" y="165" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">👁️</text>
+    
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      Approximately 162M
+    </text>
+    <text x="100" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      people affected
+    </text>
+  </g>
+  
+  <!-- Stat Card 3 -->
+  <g transform="translate(510, 80)">
+    <rect width="200" height="260" rx="12" fill="#ed8936" filter="url(#cardShadow)"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+      90%
+    </text>
+    <text x="100" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      Vision Loss
+    </text>
+    <text x="100" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      is Preventable
+    </text>
+    
+    <!-- Icon -->
+    <circle cx="100" cy="150" r="40" fill="white" opacity="0.2"/>
+    <text x="100" y="165" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">✅</text>
+    
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      With Early
+    </text>
+    <text x="100" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      Detection & Treatment
+    </text>
+  </g>
+  
+  <!-- Stat Card 4 -->
+  <g transform="translate(740, 80)">
+    <rect width="200" height="260" rx="12" fill="#9f7aea" filter="url(#cardShadow)"/>
+    <text x="100" y="40" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+      92%
+    </text>
+    <text x="100" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      AI Detection
+    </text>
+    <text x="100" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+      Accuracy
+    </text>
+    
+    <!-- Icon -->
+    <circle cx="100" cy="150" r="40" fill="white" opacity="0.2"/>
+    <text x="100" y="165" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">🤖</text>
+    
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      Our Model
+    </text>
+    <text x="100" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white" opacity="0.8">
+      Performance
+    </text>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#4a5568" font-style="italic">
+    Early detection through AI can save millions from preventable blindness
+  </text>
+</svg>
